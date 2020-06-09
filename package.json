@@ -1,0 +1,81 @@
+{
+  "name": "otpvue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@mdi/font": "^3.6.95",
+    "apexcharts": "^3.10.1",
+    "axios": "^0.19.0",
+    "core-js": "^3.3.2",
+    "facebook-login-vuejs": "^2.1.3",
+    "faker": "^4.1.0",
+    "file-saver": "^2.0.2",
+    "material-design-icons-iconfont": "^5.0.1",
+    "mobile-device-detect": "^0.3.3",
+    "moment": "^2.24.0",
+    "numeral": "^2.0.6",
+    "register-service-worker": "^1.7.1",
+    "roboto-fontface": "*",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "tinycolor2": "^1.4.1",
+    "vue": "^2.6.10",
+    "vue-apexcharts": "^1.5.0",
+    "vue-avatar": "^2.1.8",
+    "vue-browser-geolocation": "^1.8.0",
+    "vue-html-to-paper": "^1.3.1",
+    "vue-image-upload-resize": "^2.3.0",
+    "vue-online-prop": "^1.0.1",
+    "vue-qrcode-component": "^2.1.1",
+    "vue-qrcode-reader": "^2.1.1",
+    "vue-router": "^3.1.3",
+    "vue-shortkey": "^3.1.7",
+    "vue2-google-maps": "^0.10.7",
+    "vue2-location-picker": "^1.2.0",
+    "vuetify": "^2.2.11",
+    "vuex": "^3.1.1",
+    "vuex-persist": "^2.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-plugin-pwa": "^4.3.1",
+    "@vue/cli-service": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-vuetify": "^1.1.1",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.3.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
