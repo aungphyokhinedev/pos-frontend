@@ -21,7 +21,7 @@
     "numeral": "^2.0.6",
     "register-service-worker": "^1.7.1",
     "roboto-fontface": "*",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.4.0",
     "socket.io-client": "^2.3.0",
     "tinycolor2": "^1.4.1",
     "vue": "^2.6.10",
